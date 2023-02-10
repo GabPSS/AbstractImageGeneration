@@ -80,7 +80,7 @@
             this.groupBox1.Size = new System.Drawing.Size(225, 75);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Resolução";
+            this.groupBox1.Text = "Resolution";
             // 
             // label1
             // 
@@ -157,7 +157,7 @@
             this.groupBox2.Size = new System.Drawing.Size(225, 227);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Opções da simulação";
+            this.groupBox2.Text = "Simulation options";
             // 
             // radioButton2
             // 
@@ -290,44 +290,44 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(19, 123);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
+            this.label6.Size = new System.Drawing.Size(78, 15);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Cor auxiliar";
+            this.label6.Text = "Primary color";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(19, 92);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 15);
+            this.label4.Size = new System.Drawing.Size(39, 15);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Velocidade";
+            this.label4.Text = "Speed";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(19, 61);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 15);
+            this.label3.Size = new System.Drawing.Size(98, 15);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Qtd. de partículas";
+            this.label3.Text = "Num. of particles";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(19, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 15);
+            this.label2.Size = new System.Drawing.Size(45, 15);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Margem";
+            this.label2.Text = "Margin";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(57, 346);
+            this.button2.Location = new System.Drawing.Point(107, 317);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 23);
+            this.button2.Size = new System.Drawing.Size(121, 23);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Iterar";
+            this.button2.Text = "Iterate";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -351,18 +351,18 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "Copiar para clipboard";
+            this.button3.Text = "Copy to clipboard";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(72, 375);
+            this.checkBox1.Location = new System.Drawing.Point(125, 346);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 19);
+            this.checkBox1.Size = new System.Drawing.Size(82, 19);
             this.checkBox1.TabIndex = 8;
-            this.checkBox1.Text = "Reproduzir";
+            this.checkBox1.Text = "Animation";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -373,11 +373,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(57, 317);
+            this.button1.Location = new System.Drawing.Point(3, 317);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 23);
+            this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Gerar simulação";
+            this.button1.Text = "Generate";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
