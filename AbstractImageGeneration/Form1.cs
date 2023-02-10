@@ -65,7 +65,7 @@ namespace AbstractImageGeneration
                     }
                 }
                 sim.Iterate();
-                g.FillRectangle(new SolidBrush(Color.FromArgb(255 - Convert.ToInt32(Convert.ToInt32(numericUpDown6.Value)*2.25), 0, 0, 0)), new Rectangle(Point.Empty, bounds));
+                g.FillRectangle(new SolidBrush(Color.FromArgb(255 - Convert.ToInt32(Convert.ToInt32(numericUpDown6.Value)*2.55), 0, 0, 0)), new Rectangle(Point.Empty, bounds));
                 pictureBox1.Image = bmp;
             }
         }

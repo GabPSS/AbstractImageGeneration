@@ -164,9 +164,9 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(141, 183);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 19);
+            this.radioButton2.Size = new System.Drawing.Size(49, 19);
             this.radioButton2.TabIndex = 6;
-            this.radioButton2.Text = "Strings";
+            this.radioButton2.Text = "Dots";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
@@ -200,7 +200,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
-            this.button4.Text = "Cor...";
+            this.button4.Text = "Pick...";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -215,7 +215,6 @@
             0,
             0,
             0});
-            this.numericUpDown6.ValueChanged += new System.EventHandler(this.numericUpDown5_ValueChanged);
             // 
             // numericUpDown5
             // 
@@ -299,9 +298,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(19, 92);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 15);
+            this.label4.Size = new System.Drawing.Size(67, 15);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Speed";
+            this.label4.Text = "Max. speed";
             // 
             // label3
             // 
